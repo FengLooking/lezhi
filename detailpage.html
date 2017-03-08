@@ -1,0 +1,1305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>详情页</title>
+<link type="text/css" rel="stylesheet" href="css/lezhi.css" />
+</head>
+
+<body>
+	<div id="aside">
+    	<ul>
+        	<li class="login">
+            	<div>
+            		<a href="#"><img src="img/scds.png" /></a>
+                </div>
+                <span>未登录</span>
+            </li>
+            <li>
+            	<div>
+            		<a href="#"><img src="img/dfes.png" /></a>
+                </div>
+                <span>聊天</span>
+            </li>
+            <li>
+            	<div>
+            		<a href="#"><img src="img/erdf.png" /></a>
+                </div>
+                <span>购物车</span>
+            </li>
+            <li>
+            	<div>
+            		<a href="#"><img src="img/dfe.png" /></a>
+                </div>
+                <a href="#">顶部</a>
+            </li>
+        </ul>
+        <input type="button" id="toolclose_btn"  />
+    </div>
+    <div id="openttool_btn"></div>
+    <div class="topnavbg">
+        <div class="nav">
+            <div>
+                <span>欢迎来到乐值网</span>
+                <a href="#" class="login_btn">登录</a>
+                <a href="#">注册</a>
+            </div>
+            <ul class="nav_first">
+            	<li class="first_nav">
+                    <a href="#">我要入驻<i></i></a>
+                    <ul class="sub_nav">
+                        <li><a href="#">我要入驻</a></li>
+                        <li><a href="#">我要入驻</a></li>
+                    </ul>
+                </li>
+                <li class="first_nav">
+                    <a href="#">我的订单<i></i></a>
+                    <ul class="sub_nav">
+                        <li><a href="#">订单1</a></li>
+                        <li><a href="#">订单2</a></li>
+                    </ul>   
+                </li>
+                <li class="first_nav">
+                    <a href="#">我的收藏<i></i></a>
+                    <ul class="sub_nav">
+                        <li><a href="#">收藏1</a></li>
+                        <li><a href="#">收藏2</a></li>
+                    </ul>
+                </li>
+                <li class="first_nav">
+                    <a href="#">客户服务<i></i></a>
+                    <ul class="sub_nav">
+                        <li><a href="#">客户服务1</a></li>
+                        <li><a href="#">客户服务2</a></li>
+                    </ul>
+                </li>
+                <li class="first_nav">
+                    <a href="#">站点导航<i></i></a>
+                    <ul class="sub_nav">
+                        <li><a href="#">站点导航1</a></li>
+                        <li><a href="#">站点导航2</a></li>
+                    </ul>
+                </li>
+                <li class="first_nav">
+                    <a href="#">关于我们<i></i></a>
+                    <ul class="sub_nav">
+                        <li><a href="#">关于我们1</a></li>
+                        <li><a href="#">关于我们2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="toplogo">
+    	<a href="#"></a>
+        <div class="topsearch">
+            <div class="form">
+                <input type="search" value="请输入商品名称" />
+                <div id="search_shop">
+                    <span><em>商品</em><i></i></span>
+                    <ul>
+                        <li>商品1</li>
+                        <li>商品2</li>
+                    </ul>
+                </div>
+                <input type="button" value="搜索" />
+            </div>
+            <div class="hotsrh_word">
+                <span>热门搜索：</span>
+                <a href="#">车险</a>
+                <a href="#">宝马</a>
+                <a href="#">Gucci</a>
+                <a href="#">c&amp;k</a>
+            </div>
+        </div>
+        <div class="top_usercenter">
+        	<span class="user_center">用户中心<i></i></span>
+            <span class="shopcar">购物车结算<i></i></span>
+        </div>
+    </div>
+    <div id="pagenavbg">
+        <div id="page_nav">
+            <span class="nav_on">
+                <a href="#">所有商品分类</a>
+                <div class="goodsclass">
+                    <ul class="gc_left" id="gdsclist">
+                        <li>
+                            <a href="#">家用电器</a>
+                            <div class="submenu">
+                                <dl>
+                                    <dt>大家电</dt>
+                                    <dd>
+                                        <a href="#">平板电视</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                        <a href="#">洗衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>生活电器</dt>
+                                    <dd>
+                                        <a href="#">净化器</a>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">吸尘器</a>
+                                        <a href="#">加湿器</a>
+                                        <a href="#">净水设备</a>
+                                        <a href="#">饮水机</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">取暖电器</a>
+                                        <a href="#">插座</a>
+                                        <a href="#">电话机</a>
+                                        <a href="#">收录/音机</a>
+                                        <a href="#">除湿/干衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨房电器</dt>
+                                    <dd>
+                                        <a href="#">料理/榨汁机</a>
+                                        <a href="#">豆浆机</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">面包机</a>
+                                        <a href="#">咖啡机</a>
+                                        <a href="#">微波炉</a>
+                                        <a href="#">煮蛋器</a>
+                                        <a href="#">电磁炉</a>
+                                        <a href="#">酸奶机</a>
+                                        <a href="#">电炖锅</a>
+                                        <a href="#">其他厨房电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>五金家装</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>个护健康</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">手机、</a>
+                            <a href="#">数码</a>
+                            <div class="submenu">
+                                <dl>
+                                    <dt>大家电</dt>
+                                    <dd>
+                                        <a href="#">平板电视</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                        <a href="#">洗衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>生活电器</dt>
+                                    <dd>
+                                        <a href="#">净化器</a>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">吸尘器</a>
+                                        <a href="#">加湿器</a>
+                                        <a href="#">净水设备</a>
+                                        <a href="#">饮水机</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">取暖电器</a>
+                                        <a href="#">插座</a>
+                                        <a href="#">电话机</a>
+                                        <a href="#">收录/音机</a>
+                                        <a href="#">除湿/干衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨房电器</dt>
+                                    <dd>
+                                        <a href="#">料理/榨汁机</a>
+                                        <a href="#">豆浆机</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">面包机</a>
+                                        <a href="#">咖啡机</a>
+                                        <a href="#">微波炉</a>
+                                        <a href="#">煮蛋器</a>
+                                        <a href="#">电磁炉</a>
+                                        <a href="#">酸奶机</a>
+                                        <a href="#">电炖锅</a>
+                                        <a href="#">其他厨房电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>五金家装</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>个护健康</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">电脑、</a>
+                            <a href="#">办公 </a>
+                            <div class="submenu">
+                                <dl>
+                                    <dt>大家电</dt>
+                                    <dd>
+                                        <a href="#">平板电视</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                        <a href="#">洗衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>生活电器</dt>
+                                    <dd>
+                                        <a href="#">净化器</a>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">吸尘器</a>
+                                        <a href="#">加湿器</a>
+                                        <a href="#">净水设备</a>
+                                        <a href="#">饮水机</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">取暖电器</a>
+                                        <a href="#">插座</a>
+                                        <a href="#">电话机</a>
+                                        <a href="#">收录/音机</a>
+                                        <a href="#">除湿/干衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨房电器</dt>
+                                    <dd>
+                                        <a href="#">料理/榨汁机</a>
+                                        <a href="#">豆浆机</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">面包机</a>
+                                        <a href="#">咖啡机</a>
+                                        <a href="#">微波炉</a>
+                                        <a href="#">煮蛋器</a>
+                                        <a href="#">电磁炉</a>
+                                        <a href="#">酸奶机</a>
+                                        <a href="#">电炖锅</a>
+                                        <a href="#">其他厨房电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>五金家装</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>个护健康</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">家居、</a>
+                            <a href="#">家居用品、</a>
+                            <a href="#">厨具</a>
+                            <div class="submenu">
+                                <dl>
+                                    <dt>大家电</dt>
+                                    <dd>
+                                        <a href="#">平板电视</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                        <a href="#">洗衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>生活电器</dt>
+                                    <dd>
+                                        <a href="#">净化器</a>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">吸尘器</a>
+                                        <a href="#">加湿器</a>
+                                        <a href="#">净水设备</a>
+                                        <a href="#">饮水机</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">取暖电器</a>
+                                        <a href="#">插座</a>
+                                        <a href="#">电话机</a>
+                                        <a href="#">收录/音机</a>
+                                        <a href="#">除湿/干衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨房电器</dt>
+                                    <dd>
+                                        <a href="#">料理/榨汁机</a>
+                                        <a href="#">豆浆机</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">面包机</a>
+                                        <a href="#">咖啡机</a>
+                                        <a href="#">微波炉</a>
+                                        <a href="#">煮蛋器</a>
+                                        <a href="#">电磁炉</a>
+                                        <a href="#">酸奶机</a>
+                                        <a href="#">电炖锅</a>
+                                        <a href="#">其他厨房电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>五金家装</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>个护健康</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">服装、</a>
+                            <a href="#">珠宝</a>
+                            <div class="submenu">
+                                <dl>
+                                    <dt>大家电</dt>
+                                    <dd>
+                                        <a href="#">平板电视</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                        <a href="#">洗衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>生活电器</dt>
+                                    <dd>
+                                        <a href="#">净化器</a>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">吸尘器</a>
+                                        <a href="#">加湿器</a>
+                                        <a href="#">净水设备</a>
+                                        <a href="#">饮水机</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">取暖电器</a>
+                                        <a href="#">插座</a>
+                                        <a href="#">电话机</a>
+                                        <a href="#">收录/音机</a>
+                                        <a href="#">除湿/干衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨房电器</dt>
+                                    <dd>
+                                        <a href="#">料理/榨汁机</a>
+                                        <a href="#">豆浆机</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">面包机</a>
+                                        <a href="#">咖啡机</a>
+                                        <a href="#">微波炉</a>
+                                        <a href="#">煮蛋器</a>
+                                        <a href="#">电磁炉</a>
+                                        <a href="#">酸奶机</a>
+                                        <a href="#">电炖锅</a>
+                                        <a href="#">其他厨房电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>五金家装</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>个护健康</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">个护、</a>
+                            <a href="#">化妆</a>
+                            <div class="submenu">
+                                <dl>
+                                    <dt>大家电</dt>
+                                    <dd>
+                                        <a href="#">平板电视</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                        <a href="#">洗衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>生活电器</dt>
+                                    <dd>
+                                        <a href="#">净化器</a>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">吸尘器</a>
+                                        <a href="#">加湿器</a>
+                                        <a href="#">净水设备</a>
+                                        <a href="#">饮水机</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">取暖电器</a>
+                                        <a href="#">插座</a>
+                                        <a href="#">电话机</a>
+                                        <a href="#">收录/音机</a>
+                                        <a href="#">除湿/干衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨房电器</dt>
+                                    <dd>
+                                        <a href="#">料理/榨汁机</a>
+                                        <a href="#">豆浆机</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">面包机</a>
+                                        <a href="#">咖啡机</a>
+                                        <a href="#">微波炉</a>
+                                        <a href="#">煮蛋器</a>
+                                        <a href="#">电磁炉</a>
+                                        <a href="#">酸奶机</a>
+                                        <a href="#">电炖锅</a>
+                                        <a href="#">其他厨房电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>五金家装</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>个护健康</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li class="shechip">
+                            <a href="#">鞋靴、</a>
+                            <a href="#">箱包、</a>
+                            <a href="#">钟表、</a>
+                            <a href="#">奢侈品</a>
+                            <div class="submenu">
+                                <dl>
+                                    <dt>大家电</dt>
+                                    <dd>
+                                        <a href="#">平板电视</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                        <a href="#">洗衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>生活电器</dt>
+                                    <dd>
+                                        <a href="#">净化器</a>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">吸尘器</a>
+                                        <a href="#">加湿器</a>
+                                        <a href="#">净水设备</a>
+                                        <a href="#">饮水机</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">取暖电器</a>
+                                        <a href="#">插座</a>
+                                        <a href="#">电话机</a>
+                                        <a href="#">收录/音机</a>
+                                        <a href="#">除湿/干衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨房电器</dt>
+                                    <dd>
+                                        <a href="#">料理/榨汁机</a>
+                                        <a href="#">豆浆机</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">面包机</a>
+                                        <a href="#">咖啡机</a>
+                                        <a href="#">微波炉</a>
+                                        <a href="#">煮蛋器</a>
+                                        <a href="#">电磁炉</a>
+                                        <a href="#">酸奶机</a>
+                                        <a href="#">电炖锅</a>
+                                        <a href="#">其他厨房电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>五金家装</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>个护健康</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">运动户外</a>
+                            <div class="submenu">
+                                <dl>
+                                    <dt>大家电</dt>
+                                    <dd>
+                                        <a href="#">平板电视</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                        <a href="#">洗衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>生活电器</dt>
+                                    <dd>
+                                        <a href="#">净化器</a>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">吸尘器</a>
+                                        <a href="#">加湿器</a>
+                                        <a href="#">净水设备</a>
+                                        <a href="#">饮水机</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">取暖电器</a>
+                                        <a href="#">插座</a>
+                                        <a href="#">电话机</a>
+                                        <a href="#">收录/音机</a>
+                                        <a href="#">除湿/干衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨房电器</dt>
+                                    <dd>
+                                        <a href="#">料理/榨汁机</a>
+                                        <a href="#">豆浆机</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">面包机</a>
+                                        <a href="#">咖啡机</a>
+                                        <a href="#">微波炉</a>
+                                        <a href="#">煮蛋器</a>
+                                        <a href="#">电磁炉</a>
+                                        <a href="#">酸奶机</a>
+                                        <a href="#">电炖锅</a>
+                                        <a href="#">其他厨房电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>五金家装</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>个护健康</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">营养保健</a>
+                            <div class="submenu">
+                                <dl>
+                                    <dt>大家电</dt>
+                                    <dd>
+                                        <a href="#">平板电视</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                        <a href="#">洗衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>生活电器</dt>
+                                    <dd>
+                                        <a href="#">净化器</a>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">吸尘器</a>
+                                        <a href="#">加湿器</a>
+                                        <a href="#">净水设备</a>
+                                        <a href="#">饮水机</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">取暖电器</a>
+                                        <a href="#">插座</a>
+                                        <a href="#">电话机</a>
+                                        <a href="#">收录/音机</a>
+                                        <a href="#">除湿/干衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨房电器</dt>
+                                    <dd>
+                                        <a href="#">料理/榨汁机</a>
+                                        <a href="#">豆浆机</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">面包机</a>
+                                        <a href="#">咖啡机</a>
+                                        <a href="#">微波炉</a>
+                                        <a href="#">煮蛋器</a>
+                                        <a href="#">电磁炉</a>
+                                        <a href="#">酸奶机</a>
+                                        <a href="#">电炖锅</a>
+                                        <a href="#">其他厨房电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>五金家装</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>个护健康</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">理财、</a>
+                            <a href="#">保险</a>
+                            <div class="submenu">
+                                <dl>
+                                    <dt>大家电</dt>
+                                    <dd>
+                                        <a href="#">平板电视</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                        <a href="#">洗衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>生活电器</dt>
+                                    <dd>
+                                        <a href="#">净化器</a>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">吸尘器</a>
+                                        <a href="#">加湿器</a>
+                                        <a href="#">净水设备</a>
+                                        <a href="#">饮水机</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">取暖电器</a>
+                                        <a href="#">插座</a>
+                                        <a href="#">电话机</a>
+                                        <a href="#">收录/音机</a>
+                                        <a href="#">除湿/干衣机</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>厨房电器</dt>
+                                    <dd>
+                                        <a href="#">料理/榨汁机</a>
+                                        <a href="#">豆浆机</a>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">面包机</a>
+                                        <a href="#">咖啡机</a>
+                                        <a href="#">微波炉</a>
+                                        <a href="#">煮蛋器</a>
+                                        <a href="#">电磁炉</a>
+                                        <a href="#">酸奶机</a>
+                                        <a href="#">电炖锅</a>
+                                        <a href="#">其他厨房电器</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>五金家装</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>个护健康</dt>
+                                    <dd>
+                                        <a href="#">工字钢</a>
+                                        <a href="#">槽钢</a>
+                                        <a href="#">H型钢</a>
+                                        <a href="#">乙字钢</a>
+                                        <a href="#">T型钢</a>
+                                        <a href="#">其他型钢</a>
+                                        <a href="#">热轧六角钢</a>
+                                        <a href="#">热轧扁钢</a>
+                                        <a href="#">冷拉扁钢</a>
+                                        <a href="#">球扁钢</a>
+                                        <a href="#">热轧方钢</a>
+                                        <a href="#">冷拉方钢</a>
+                                        <a href="#">角钢</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </span>
+            <a href="#">首页</a>
+            <a href="#">兑付宝商城</a>
+            <a href="#">限时抢购</a>
+            <a href="#">关于我们</a>
+        </div>
+    </div>
+   	<!--页面主体部分-->
+    <div id="detail_main">
+        <div id="psnrctrtop_nav">
+            <span class="prtp_home">首页</span>
+            <span class="prtp_myshop">珠宝手表</span>
+            <span>项链</span>
+            <span>端羊2015夏装新款开衫女镂空薄短款针织披肩空调衫外套防晒衫女</span>
+        </div>  
+    	<div class="goods_show">
+        	<div class="picshow">
+            	<div class="bigpics">
+                	<ul id="gsbig">
+                    	<li><img src="img/detail/dpbig2_03.png" /></li>
+                        <li><img src="img/detail/dpbig1_03.png" /></li>
+                        <li><img src="img/detail/dpbig2_03.png" /></li>
+                        <li><img src="img/detail/dpbig1_03.png" /></li>
+                        <li><img src="img/detail/dpbig2_03.png" /></li>
+                    </ul>
+                    <p class="mask"></p>
+                </div>
+                <div id="show"></div>
+                <ul id="gssmall">
+                	<li class="gss_on"><img src="img/detail/dpbig2_03.png" /></li>
+                    <li><img src="img/detail/dpbig1_03.png" /></li>
+                    <li><img src="img/detail/dpbig2_03.png" /></li>
+                    <li><img src="img/detail/dpbig1_03.png" /></li>
+                    <li><img src="img/detail/dpbig2_03.png" /></li>
+                </ul>
+                <div id="share_btns">
+                	<span class="share">分享(0)</span>
+                    <span class="clltgoods">收藏商品(0)</span>
+                    <span class="join">加入对比(0)</span>
+                    <span class="tipoff">举报</span>
+                </div>
+                <div id="fdimg">
+                    <img src="" alt="" />
+                </div>
+           	</div>
+            <!--商品展示中间部分-->
+            <ul id="gss_middle">
+            	<li class="gssh_title">端羊2015夏装新款开衫女镂空薄短款针织披肩空调衫外套防晒衫女</li>
+                <li>
+                	<div class="price">
+                    	<span>市 场 价：¥338.00 </span>
+                        <p>商 城 价：<span>¥338.00 </span></p>
+                    </div>
+                    <div class="score">
+                    	<span>商品评分</span>
+                        <p></p>
+                    </div>
+                </li>
+                <li class="tocountry">至　全国：<span>联盟商铺提货</span></li>
+                <li class="pur_num">
+                	购买数量：
+                    <span id="increase">+</span>
+                    <input type="text" id="buynum" value="1" />
+                	<span id="reduce">-</span>
+                </li>
+                <li>(当前库存38135件)</li>
+                <li class="nowcar_btn">
+                	<input type="button" value="立即购买" id="purchase_now" />
+                    <input type="button" value="加入购物车" id="joinshop_car" />
+                </li>
+            </ul>
+            <!--商品展示右边部分-->
+            <ul id="shop_detail">
+            	<li class="shopname">周生生武林广场店</li>
+                <li class="zgh_score">综合评分：5分<span></span></li>
+                <li class="spdscore">
+                	<p class="shop_danymics">店铺动态评分<span>与行业相比</span></p>
+                    <p>描述相符&nbsp;&nbsp;&nbsp;5分</p>
+                    <p>服务态度&nbsp;&nbsp;&nbsp;5分</p>
+                </li>
+                <li class="company">
+                	<p>公司名称：杭州晖硕信息有限公司</p>
+                    </p>公司地址：杭州市拱墅区祥园路</p>
+                </li>
+                <li class="enter_collect">
+                	<input type="button" value="进入商家店铺" id="enter_shop" />
+                    <input type="button" value="收藏店铺" id="collect_shop" />
+                </li>
+                <li class="mapcode">
+                	<input type="button" value="店铺地图" id="shop_map" />
+                    <input type="button" value="店铺二维码" id="shop_qrcode" />
+                </li>
+            </ul>
+        </div>
+        <!--商品详情部分-->
+        <div id="detail_left">
+        	<ul class="dtltop">
+            	<li class="gsd_scanner">
+                	<p>商品二维码</p>
+                    <div><img src="img/erweim.png" /></div>
+                </li>
+                <li class="self_deals">自营</li>
+                <li class="gsdclass">
+                	<p class="gsctitle">商品分类</p>
+                    <div id="classify_btns">
+                    	<span>按新品</span>
+                        <span>按价格</span>
+                        <span>按销量</span>
+                        <span>按人气</span>
+                    </div>
+                    <input type="text" id="searchF" value="搜索店内商品" />
+                    <input type="button" id="searchbtn" value="搜索" />
+                    <p class="allgs">_全部商品</p>
+                </li>
+            </ul>
+            <div class="dtlbottom">
+            	<p>商品排行</p>
+                <div id="hotgsbtns">
+                	<span class="htgsb_on">热销商品排行</span>
+                    <span>热门收藏排行</span>
+                </div>
+                <div id="hotgslist">
+                    <ul class="gdslist">
+                        <li>
+                        	<a href="#" class="gdspic"><img src="img/detail/hotpic1_14.png" /></a>
+                            <a href="#">至尊金奖 法国原瓶进...</a>
+                            <p>¥288.00</p>
+                            <p class="soldout">售出：<span>13</span>笔</p>
+                        </li>
+                        <li>
+                        	<a href="#" class="gdspic"><img src="img/detail/hotpic2_17.png" /></a>
+                            <a href="#">新款 女款 拼接 不规则...</a>
+                            <p>¥99.00</p>
+                            <p class="soldout">售出：<span>3</span>笔</p>
+                        </li>
+                        <li>
+                        	<a href="#" class="gdspic"><img src="img/detail/hotpic3_19.png" /></a>
+                            <a href="#">周生生珠宝足金大眼猴...</a>
+                            <p>¥621.00</p>
+                            <p class="soldout">售出：<span>3</span>笔</p>
+                        </li>
+                        <li>
+                        	<a href="#" class="gdspic"><img src="img/detail/hotpic4_21.png" /></a>
+                            <a href="#">春装 披肩式 超短款 针...</a>
+                            <p>¥129.00</p>
+                            <p class="soldout">售出：<span>2</span>笔</p>
+                        </li>
+                        <li>
+                        	<a href="#" class="gdspic"><img src="img/detail/hotpic5_23.png" /></a>
+                            <a href="#">中华老子号 东阿阿胶...</a>
+                            <p>¥95.00</p>
+                            <p class="soldout">售出：<span>2</span>笔</p>
+                        </li>
+                        <li>
+                        	<input type="button" value="查看本店其他商品" id="lkotbtn" />
+                        </li>
+                    </ul>
+                    <ul class="gdslist_hide">
+                        <li>
+                            <a href="#" class="gdspic"><img src="img/detail/hotpic5_23.png" /></a>
+                            <a href="#">至尊金奖 法国原瓶进...</a>
+                            <p>¥288.00</p>
+                            <p class="soldout">售出：<span>13</span>笔</p>
+                        </li>
+                        <li>
+                            <a href="#" class="gdspic"><img src="img/detail/hotpic4_21.png" /></a>
+                            <a href="#">新款 女款 拼接 不规则...</a>
+                            <p>¥99.00</p>
+                            <p class="soldout">售出：<span>3</span>笔</p>
+                        </li>
+                        <li>
+                            <a href="#" class="gdspic"><img src="img/detail/hotpic3_19.png" /></a>
+                            <a href="#">周生生珠宝足金大眼猴...</a>
+                            <p>¥621.00</p>
+                            <p class="soldout">售出：<span>3</span>笔</p>
+                        </li>
+                        <li>
+                            <a href="#" class="gdspic"><img src="img/detail/hotpic2_17.png" /></a>
+                            <a href="#">春装 披肩式 超短款 针...</a>
+                            <p>¥129.00</p>
+                            <p class="soldout">售出：<span>2</span>笔</p>
+                        </li>
+                        <li>
+                            <a href="#" class="gdspic"><img src="img/detail/hotpic1_14.png" /></a>
+                            <a href="#">中华老子号 东阿阿胶...</a>
+                            <p>¥95.00</p>
+                            <p class="soldout">售出：<span>2</span>笔</p>
+                        </li>
+                        <li>
+                            <input type="button" value="查看本店其他商品" id="lkotbtn" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--商品介绍部分-->
+        <div id="dtright">
+        	<div id="gsdsole_btns">
+            	<span class="gsdb_on">商品详情</span>
+                <span>商品评价(0)</span>
+                <span>销售记录(0)</span>
+                <span>购买咨询</span>
+            </div>
+            <div id="goods_introduce">
+                <p class="intro_on">
+                	<span>商家货号 : 38820200665</span>
+                    <span>品牌 : </span>
+                    <img src="img/detail/dbg1_11.png" />
+                    <img src="img/detail/dpbig1_03.png" />
+                    <img src="img/detail/dpbig2_03.png" />
+                </p>
+                <p class="intro_hide">
+                    <span>商品评价</span>
+                    <span>品牌 : </span>
+                    <img src="img/detail/dbg2.png" />
+                </p>
+                <p class="intro_hide">
+                    <span>销售记录</span>
+                    <span>品牌 : </span>
+                    <img src="img/detail/dbg3.png" />
+                </p>
+                <p class="intro_hide">
+                    <span>购买咨询</span>
+                    <span>品牌 : </span>
+                    <img src="img/detail/dbg4.png" />
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--页面底部部分-->
+    <div id="footer">
+    	<ul class="ftensure">
+        	<li>
+            	<img src="img/fdsfe.png" />
+                <p>正品保障</p>
+                <span>全场正品，行货保障</span>
+            </li>
+            <li>
+            	<img src="img/fdgr.png" />
+                <p>服务保障</p>
+                <span>服务保证，全国联保</span>
+            </li>
+            <li>
+            	<img src="img/sdfcv.png" />
+                <p>无忧退货</p>
+                <span>无忧退货，7日尊享</span>
+            </li>
+            <li>
+            	<img src="img/saxcs.png" />
+                <p>会员权益</p>
+                <span>会员升级，尊贵特权</span>
+            </li>
+        </ul>
+        <ul class="fthelplist">
+        	<li class="help_center">
+            	<dl>
+                	<dt>帮助中心</dt>
+                    <dd>
+                    	<a href="#">查看已购买的商品</a>
+                        <a href="#">如何搜索</a>
+                        <a href="#">什么是零付宝</a>
+                        <a href="#">如何充值</a>
+                        <a href="#">如何注册成为会员</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+            	<dl>
+                	<dt>联盟商之家</dt>
+                    <dd>
+                    	<a href="#">如何成为联盟商</a>
+                        <a href="#">如何管理店铺</a>
+                        <a href="#">如何发货</a>
+                        <a href="#">查看售出的商品</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+            	<dl>
+                	<dt>支付方式</dt>
+                    <dd>
+                    	<a href="#">付款方式说明</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+            	<dl>
+                	<dt>售后服务</dt>
+                    <dd>
+                    	<a href="#">退换货政策</a>
+                        <a href="#">退换货流程</a>
+                        <a href="#">退款申请</a>
+                        <a href="#">联系客服</a>
+                        <a href="#">进入帮助中心</a>
+                    </dd>
+                </dl>
+            </li>
+            <li>
+            	<dl>
+                	<dt>客服中心</dt>
+                    <dd>
+                    	<a href="#">密码修改</a>
+                        <a href="#">个人资料修改</a>
+                    </dd>
+                </dl>
+            </li>
+            <li class="aboutus">
+            	<dl>
+                	<dt>关于我们</dt>
+                    <dd>
+                    	<a href="#">招聘英才</a>
+                        <a href="#">联系我们</a>
+                        <a href="#"> 关于我们</a>
+                        <a href="#">关于我们</a>
+                        <a href="#">合作洽谈</a>
+                    </dd>
+                </dl>
+            </li>
+            <li class="scanner">
+            	<img src="img/sdfcvd.png" />
+                <p>关注乐值网公众号<br />获得更多优惠</p>
+            </li>
+        </ul>
+        <div class="ftrcprt">Copyright © 杭州东方文化园旅业集团 版权所有 技术支持：杭州晖硕技术</div>
+    </div>
+    <script type="text/javascript" language="javascript" src="js/lezhi.js"></script>
+</body>
+</html>
